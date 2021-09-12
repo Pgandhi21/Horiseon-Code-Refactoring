@@ -1,13 +1,28 @@
+
+/*Universal selectors*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Element Selectors*/
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Class Selectors*/
+
+/*Header styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +56,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Images Styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -69,6 +76,17 @@ p {
     margin-left: 25px;
 }
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+/*Paragraphs and blocks Styling*/
 .content {
     width: 75%;
     display: inline-block;
@@ -96,12 +114,6 @@ p {
     text-align: center;
 }
 
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +123,12 @@ p {
     color: #ffffff;
 }
 
-.content article img {
-    max-height: 200px;
-}
-
 .content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Footer styling*/
 .footer {
     padding: 30px;
     clear: both;
